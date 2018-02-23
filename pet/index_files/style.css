@@ -1,0 +1,52 @@
+body
+{
+	background-color:antiquewhite;
+	margin: 0;
+}
+
+
+.main_content 
+{
+	position: absolute;
+	top: 116.8px;
+	right: 0;
+}
+
+
+.tab
+{
+	font-size:20px ;
+	
+}
+
+.txt
+{
+	text-align:center;
+	margin:auto;
+	color: purple;
+}
+
+h1 
+{
+	font-family:Calibri,Hectiveca,Sans Serif;
+	font-size:45px;
+	font-weight:bold;
+	margin:0;
+	padding:0;
+	color: pink;
+}
+
+#main_body
+{
+	margin: 0;
+	width: 100%;
+	float: right;
+}
+
+.blog
+{
+	float: right;
+	margin: auto;
+}
+
+

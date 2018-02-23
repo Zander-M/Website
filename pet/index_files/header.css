@@ -1,0 +1,66 @@
+#header
+{
+	margin: 0;
+	background:linear-gradient(to right,pink,purple);
+	width: 100%;
+	top: 0;
+	height: auto;
+	text-align: center;
+	font-size: 0;
+}
+
+#title
+{
+	height: 56px
+}
+
+ul
+{
+	list-style-type:none;
+	padding:0;
+	overflow: hidden;
+	width: 70%;
+	
+	
+	
+	margin: 0;
+	display: inline-block;
+}
+
+li
+{
+	float: left;
+
+}
+
+
+li a
+{
+	display: block;
+	color: purple;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+li a:active
+{
+	color:pink;
+}
+
+li a:hover
+{ transition: 0.5s;
+	background-color: #C366A8 ;
+}
+
+
+li a.active
+{
+	color:#FFC0CB;
+}
+
+li a.active:hover
+{
+	transition: 0.5s;
+	background-color: #C366A8
+}
