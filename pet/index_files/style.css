@@ -4,6 +4,15 @@ body
 	margin: 0;
 }
 
+#header
+{
+	margin: 0;
+	background:linear-gradient(to right,pink,purple);
+	width: 100%;
+	top: 0;
+	height: auto;
+	text-align: center;
+}
 
 .main_content 
 {
@@ -12,6 +21,43 @@ body
 	right: 0;
 }
 
+ul
+{
+	list-style-type:none;
+	margin:auto;
+	padding:0;
+	overflow: hidden;
+	width: 70%;
+	
+	
+	
+	bottom: auto;
+}
+
+li
+{
+	float: left;
+
+}
+
+li a
+{
+	display: block;
+	color: purple;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+li a:active
+{
+	color:pink;
+}
+
+li a:hover
+{ transition: 0.5s;
+	background-color: #C366A8 ;
+}
 
 .tab
 {
@@ -24,6 +70,17 @@ body
 	text-align:center;
 	margin:auto;
 	color: purple;
+}
+
+li a.active
+{
+	color:#FFC0CB;
+}
+
+li a.active:hover
+{
+	transition: 0.5s;
+	background-color: #C366A8
 }
 
 h1 
@@ -49,4 +106,7 @@ h1
 	margin: auto;
 }
 
-
+#title
+{
+	height: 56px
+}
